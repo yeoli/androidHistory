@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:id="@+id/lay_check"
+            >
+
+            <Chronometer
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:id="@+id/chrono1"
+                android:textSize="100dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hep"
+                android:text=" "
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ti"
+                android:text=" "
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:visibility="visible"
+                    android:id="@+id/startcl"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ic_launcher_st" />
+
+                <ImageButton
+                    android:id="@+id/startpause"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ic_launcher_pause" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/origin"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="초기화"/>
+
+
+            <ImageButton
+                android:id="@+id/nextcl"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="right"
+                android:background="@drawable/ic_action_east" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/lay_con"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="연결할 블루투스를 선택하세요."
+                android:textSize="20dp"
+                android:layout_marginBottom="60dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/leftfo"
+                        android:id="@+id/ibtnbt1"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="왼쪽"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="기기이름"
+                        android:id="@+id/tv_btname1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="0dp">
+
+                    <ImageView
+                        android:layout_marginRight="20dp"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/rightfo"
+                        android:id="@+id/ibtnbt2"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="오른쪽" />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="기기이름"
+                        android:id="@+id/tv_btname2"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:background="@color/colorPrimary"
+                android:id="@+id/btnok"
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="확인"
+                />
+        </LinearLayout>
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#9999"
+             android:id="@+id/lay_loading"
+             android:orientation="vertical"
+             android:gravity= "center">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="자동 연결을 진행중입니다 ..."
+                 android:textColor="#000"
+                 android:textSize="20dp"/>
+         </LinearLayout>-->
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_weight="1">
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Bluetooth를 연결하세요."
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <Switch
+        android:switchMinWidth="60dp"
+        android:layout_marginBottom="130dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+           <Button
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/btn1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+          />
+
+           <Button
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/btn2"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layout_height="50dp"
+            android:layout_width="match_parent">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="-15dp"
+            android:id="@+id/txtview1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="측정하기"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="-15dp"
+            android:id="@+id/txtview2"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="기록"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <Button
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/btn3"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/btn4"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="-15dp"
+        android:id="@+id/txtview4"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="통계"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="-15dp"
+        android:id="@+id/txtview5"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="내 정보"/>
+
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

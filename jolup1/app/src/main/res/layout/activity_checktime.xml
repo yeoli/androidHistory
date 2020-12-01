@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:id="@+id/lay_check">
+
+            <Chronometer
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:id="@+id/chrono1"
+                android:textSize="100dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hep"
+                android:text=" "
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ti"
+                android:text=" "
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hep1"
+                android:text="시간"
+                android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hep2"
+        android:text="분"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hep3"
+        android:text="초"
+        android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:visibility="visible"
+                    android:id="@+id/startcl"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ic_launcher_st" />
+
+                <ImageButton
+                    android:id="@+id/startpause"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ic_launcher_pause" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/origin"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="초기화"/>
+
+
+            <ImageButton
+                android:id="@+id/nextcl"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="right"
+                android:background="@drawable/ic_action_east" />
+
+
+        </LinearLayout>
+</LinearLayout>

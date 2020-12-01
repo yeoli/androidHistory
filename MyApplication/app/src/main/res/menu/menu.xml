@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="통계"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings2"
+        android:title="계속 측정하기" />
+
+    <item android:id="@+id/action_settings3"
+        android:title="홈으로"/>
+
+    <View
+        android:id="@+id/vi_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_purple"/>
+
+    <item
+        android:id="@+id/action_settings4"
+        android:title="내 정보"/>
+
+    <item
+        android:id="@+id/action_settings5"
+        android:title="종료"/>
+
+
+
+
+</menu>

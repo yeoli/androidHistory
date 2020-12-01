@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="블루투스">
+
+
+    <SwitchPreference
+        android:title="블루투스 설정"
+        android:summary="블루투스 on/off"/>
+
+    <PreferenceScreen
+        android:title="기기 등록"/>
+
+</PreferenceCategory>
+
+    <PreferenceCategory android:title="사용자 관리">
+
+        <PreferenceScreen
+            android:title="사용자 정보 변경">
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="회원탈퇴">
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="로그아웃">
+        </PreferenceScreen>
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="앱 정보">
+
+        <PreferenceScreen
+            android:title="앱 버전">
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
